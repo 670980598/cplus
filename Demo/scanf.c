@@ -9,5 +9,5 @@ int main() {
 	scanf("please enter num1:%d", &num1);
 	scanf("please enter num2:%d", &num2);
 	int sum = num1 + num2;
-	printf("sum : %d", sum);
+	printf("you enter the two numbers sum is %d", sum);
 }
