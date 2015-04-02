@@ -4,7 +4,7 @@
  */
 #include <stdio.h>
 int main() {
-	int num
+	int num = 2;
 	printf("Hello World!");
 	printf("ok! this bug is deal");
 	printf("all thing is ok");
