@@ -6,4 +6,5 @@
 int main() {
 	printf("Hello World!");
 	printf("ok! this bug is deal");
+	return true;
 }
