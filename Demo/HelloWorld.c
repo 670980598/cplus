@@ -5,4 +5,5 @@
 #include <stdio.h>
 int main() {
 	printf("Hello World!");
+	printf("ok! this bug is deal");
 }
