@@ -10,5 +10,11 @@ int main() {
 	printf("all thing is ok");
 	printf("branch demo");
 	printf("local branch demo push");
+	
+	
+	
+	printf("1");
+	printf("2");
+	printf("3");
 	return true;
 }
