@@ -9,5 +9,6 @@ int main() {
 	printf("ok! this bug is deal");
 	printf("all thing is ok");
 	printf("branch demo");
+	printf("local branch demo push");
 	return true;
 }
