@@ -1,0 +1,3 @@
+The reason for the "workaround" jeremiah mentioned, in the case of the switch statement, can be understood as follows; in any place where you can have an echo statement (an if block, a switch's case, whatever), that's where you can have the raw HTML. In PHP this basically gets handled just like that -- like an echo statement. 
+
+In between a switch and a case, though, you can't echo anything. By placing the switch and the case in two separate blocks of PHP, with a raw HTML newline echo'ed in between them, PHP basically had to try to find where that statement would be. And it can't be there, hence the difficulty.
